@@ -1,0 +1,12 @@
+[2025-04-15 18:36:36] 数据库错误: 查询失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS avg_score,
+            COUNT(ratings.id) AS rating_count
+        FROM games' at line 3
+[2025-04-15 18:36:39] 数据库错误: 查询失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS avg_score,
+            COUNT(ratings.id) AS rating_count
+        FROM games' at line 3
+[2025-04-15 18:36:43] 数据库错误: 查询失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS avg_score,
+            COUNT(ratings.id) AS rating_count
+        FROM games' at line 3
+[2025-04-15 18:38:08] 数据库错误: 查询失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS avg_score,
+            COUNT(ratings.id) AS rating_count
+        FROM games' at line 3
