@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.top-banner {
+    background:linear-gradient(135deg, yellow, #FF8C00);
+    color: white;
+    padding: 50px 0 120px 0;
+    text-align: center;
+    position: relative;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.banner-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px white(0,0,0,0.1);
+}
+
+.banner-subtitle {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+    margin-top: -115px;
+}
+
+.register-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    z-index: 2;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: all 0.3s;
+    background-color: #fafafa;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff5200;
+    box-shadow: 0 0 0 3px rgba(255, 165, 0, 0.2);
+    background-color: white;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, yellow, #FF8C00);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(255, 140, 0, 0.2);
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, yellow, #FF8C00);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 140, 0, 0.25);
+}
+
+.error {
+    border-color: red !important;
+    background-color: #fff5f7 !important;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.success-message {
+    display: none;
+    text-align: center;
+    color: #FF8C00;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
