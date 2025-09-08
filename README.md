@@ -96,8 +96,3 @@ jpj_gs/
 └── README.md         # 项目说明文档
 ```
 
----
-
-## License
-
-本项目采用 [GNU LGPL v2.1](LICENSE) 开源许可证。
